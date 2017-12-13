@@ -11,31 +11,44 @@
       <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
     </ul>
     <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+    <button @click="showToast">点我</button>
   </div>
 </template>
 
 <script>
+import { Toast } from 'mint-ui';
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  methods:{
+  	showToast: function(){
+  		Toast({
+			  message: '提示',
+			  position: 'bottom',
+			  duration: 5000
+			});
+  	}
+  },
+  mounted:function(){
+  	//这里使用jQuery
   }
+  
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
+<style scoped lang="scss">
+.hello{
+	h1, h2 {
+	  font-weight: normal;
+	  color: red;
+	}
 }
+
 ul {
   list-style-type: none;
   padding: 0;
