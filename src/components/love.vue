@@ -1,5 +1,11 @@
 <template>
   <div class="love">
+	  <mt-header title="聪哥的vue模板">
+		  <router-link to="/" slot="left">
+		    <mt-button icon="back">返回</mt-button>
+		  </router-link>
+		  <mt-button icon="more" slot="right"></mt-button>
+		</mt-header>
     <mt-navbar v-model="selected">
 		  <mt-tab-item id="1">我</mt-tab-item>
 		  <mt-tab-item id="2">爱</mt-tab-item>
