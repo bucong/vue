@@ -25,7 +25,7 @@ export default {
   		Toast({
 			  message: '老婆，么么哒',
 			  position: 'bottom',
-			  duration: 3000
+			  duration: 4000
 			});
   	}
   },
