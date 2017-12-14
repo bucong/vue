@@ -6,7 +6,7 @@ import Love from '@/components/love'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+//mode: 'history',
   routes: [
     {
       path: '/',
