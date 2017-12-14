@@ -5,6 +5,8 @@ import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
 import App from './App'
 import router from './router'
+import './assets/js/fontSize'
+import './assets/css/reset.css'
 
 Vue.use(MintUI)
 

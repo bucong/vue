@@ -2,9 +2,9 @@
   <div class="home">
     <h5>{{ msg }}</h5>
     <mt-swipe class="swip" :auto="4000">
-		  <mt-swipe-item><img src="src/assets/images/swip1.jpg"/></mt-swipe-item>
-		  <mt-swipe-item><img src="src/assets/images/swip2.jpg"/></mt-swipe-item>
-		  <mt-swipe-item><img src="src/assets/images/swip3.jpg"/></mt-swipe-item>
+		  <mt-swipe-item><img src="../assets/images/swip1.jpg"/></mt-swipe-item>
+		  <mt-swipe-item><img src="../assets/images/swip2.jpg"/></mt-swipe-item>
+		  <mt-swipe-item><img src="../assets/images/swip3.jpg"/></mt-swipe-item>
 		</mt-swipe>
     <router-link to="/love" class="a">Our love ...</router-link>
     <mt-button plain type="primary" size="normal" @click="showToast">想对你说</mt-button>
@@ -25,7 +25,7 @@ export default {
   		Toast({
 			  message: '老婆，么么哒',
 			  position: 'bottom',
-			  duration: 5000
+			  duration: 3000
 			});
   	}
   },
