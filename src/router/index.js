@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/home'
-import Love from '@/components/love'
-import Error from '@/components/error'
+const Home = () => import('@/views/home')
+const Love = () => import('@/views/love')
+const Error = () => import('@/views/error')
 
 Vue.use(Router)
 

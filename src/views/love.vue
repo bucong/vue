@@ -15,13 +15,13 @@
 		<!-- tab-container -->
 		<mt-tab-container v-model="selected">
 		  <mt-tab-container-item id="1">
-		    <img src="../assets/images/tab1.jpg"/>
+		    <img src="static/img/tab1.jpg"/>
 		  </mt-tab-container-item>
 		  <mt-tab-container-item id="2">
-		    <img src="../assets/images/tab2.jpg"/>
+		    <img src="static/img/tab2.jpg"/>
 		  </mt-tab-container-item>
 		  <mt-tab-container-item id="3">
-		    <img src="../assets/images/tab3.jpg"/>
+		    <img src="static/img/tab3.jpg"/>
 		  </mt-tab-container-item>
 		</mt-tab-container>
   </div>
@@ -40,7 +40,7 @@ export default {
   	
   },
   mounted:function(){
-  	//这里使用jQuery
+  	
   }
 }
 </script>

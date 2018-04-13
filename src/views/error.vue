@@ -1,6 +1,6 @@
 <template>
   <div class="error">
-	  <img src="../assets/images/error.jpg" alt="" />
+	  <img src="static/img/error.jpg" alt="" />
 	  <div>
 	  	<span>Error</span>
 	  	<router-link to="/">返回首页</router-link>
@@ -22,7 +22,7 @@ export default {
   	
   },
   mounted:function(){
-  	//这里使用jQuery
+  	
   }
 }
 </script>

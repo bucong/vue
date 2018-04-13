@@ -2,9 +2,9 @@
   <div class="home">
     <h5>{{ msg }}</h5>
     <mt-swipe class="swip" :auto="4000">
-		  <mt-swipe-item><img src="../assets/images/swip1.jpg"/></mt-swipe-item>
-		  <mt-swipe-item><img src="../assets/images/swip2.jpg"/></mt-swipe-item>
-		  <mt-swipe-item><img src="../assets/images/swip3.jpg"/></mt-swipe-item>
+		  <mt-swipe-item><img src="static/img/swip1.jpg"/></mt-swipe-item>
+		  <mt-swipe-item><img src="static/img/swip2.jpg"/></mt-swipe-item>
+		  <mt-swipe-item><img src="static/img/swip3.jpg"/></mt-swipe-item>
 		</mt-swipe>
     <router-link to="/love" class="a">Our love ...</router-link>
     <mt-button plain type="primary" size="normal" @click="showToast">想对你说</mt-button>
@@ -30,7 +30,7 @@ export default {
   	}
   },
   mounted:function(){
-  	//这里使用jQuery
+  	
   }
   
 }

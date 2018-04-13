@@ -2,7 +2,7 @@
   "name": "vue",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "bucong <bucong@sodo-tech.com>",
+  "author": "bucong <531053266@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --open --inline --progress --config build/webpack.dev.conf.js",
@@ -10,7 +10,6 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "jquery": "^3.2.1",
     "mint-ui": "^2.2.13",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
