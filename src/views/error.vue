@@ -2,7 +2,7 @@
   <div class="error">
 	  <img src="static/img/error.jpg" alt="" />
 	  <div>
-	  	<span>Error</span>
+	  	<span>发生错误咯</span>
 	  	<router-link to="/">返回首页</router-link>
 	  	<p>{{msg}}</p>
 	  </div>
